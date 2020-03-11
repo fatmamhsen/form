@@ -15,9 +15,10 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey.shade100,
         body: Container(
           margin: EdgeInsets.only(top:90.0),
-          padding: EdgeInsets.all(30.0),
+          padding: EdgeInsets.all(20.0),
           child: Center(
             child: Form(
               child: Column(
@@ -154,7 +155,7 @@ class _MyAppState extends State<MyApp> {
                   ),
                   FlatButton(
                     onPressed: (){},
-                    padding: EdgeInsets.only(top: 70.0),
+                    padding: EdgeInsets.only(top: 50.0),
                     child: Text('Sign Up',
                       style: TextStyle(
                         color: Color.fromRGBO(121, 80, 124, 1),
